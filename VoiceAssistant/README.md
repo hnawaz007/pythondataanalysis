@@ -19,4 +19,9 @@ Supported commands :
 * Exit : Quits the program
 * Stay tuned for more features in the next session...
 
-[![Python Voice Assistant](https://www.youtube.com/watch?v=LLZQT9-0l_8&t)](https://www.youtube.com/watch?v=LLZQT9-0l_8&t "Python Voice Assistant")
+[![Python Voice Assistant](pythonanalysis/img.jpg)](https://www.youtube.com/watch?v=LLZQT9-0l_8&t "Python Voice Assistant")
+
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=LLZQT9-0l_8&t"><img src="pythonanalysis/img.jpg" alt="IMAGE ALT TEXT"></a>
+</div>
