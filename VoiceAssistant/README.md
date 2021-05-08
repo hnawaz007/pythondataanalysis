@@ -21,9 +21,5 @@ Supported commands :
 
 
 ![Account Selection](https://github.com/hnawaz007/pythondataanalysis/blob/main/img.jpg)****
+[![Python Voice Assistant](https://github.com/hnawaz007/pythondataanalysis/blob/main/img.jpg)](https://www.youtube.com/watch?v=LLZQT9-0l_8&t "Python Voice Assistant")
 
-
-
-<div align="center">
-  <a href="https://www.youtube.com/watch?v=LLZQT9-0l_8&t"><img src="pythonanalysis/img.jpg" alt="IMAGE ALT TEXT"></a>
-</div>
