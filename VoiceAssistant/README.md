@@ -20,6 +20,6 @@ Supported commands :
 * Stay tuned for more features in the next session...
 
 
-![Account Selection](https://github.com/hnawaz007/pythondataanalysis/blob/main/img.jpg)****
+
 [![Python Voice Assistant](https://github.com/hnawaz007/pythondataanalysis/blob/main/img.jpg)](https://www.youtube.com/watch?v=LLZQT9-0l_8&t "Python Voice Assistant")
 
