@@ -19,7 +19,8 @@ Supported commands :
 * Exit : Quits the program
 * Stay tuned for more features in the next session...
 
-[![Python Voice Assistant](img.jpg)](https://www.youtube.com/watch?v=LLZQT9-0l_8&t "Python Voice Assistant")
+
+![Account Selection](img.jpg)****
 
 
 
