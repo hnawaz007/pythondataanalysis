@@ -21,6 +21,7 @@ Supported commands :
 
 [![Python Voice Assistant](pythonanalysis/img.jpg)](https://www.youtube.com/watch?v=LLZQT9-0l_8&t "Python Voice Assistant")
 
+[![Everything Is AWESOME](//pythonanalysis/img.jpg)](//www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
 
 <div align="center">
   <a href="https://www.youtube.com/watch?v=LLZQT9-0l_8&t"><img src="pythonanalysis/img.jpg" alt="IMAGE ALT TEXT"></a>
