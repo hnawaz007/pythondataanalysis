@@ -5,7 +5,7 @@ How cool is it to build your own personal assistants like Alexa or Siri? This tu
 
 
 * Usage: Via command prompt run it with below command
-		* Pycharm right click and run the file.
+* Pycharm right click and run the file.
 
 ```
 python app.py
