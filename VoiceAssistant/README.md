@@ -20,7 +20,7 @@ Supported commands :
 * Stay tuned for more features in the next session...
 
 
-![Account Selection](img.jpg)****
+![Account Selection](https://github.com/hnawaz007/pythondataanalysis/blob/main/img.jpg)****
 
 
 
