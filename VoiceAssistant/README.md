@@ -18,3 +18,5 @@ Supported commands :
 * Search a Term/Person : Pulls info form WikiPedia
 * Exit : Quits the program
 * Stay tuned for more features in the next session...
+
+[![Python Voice Assistant](https://yt-embed.herokuapp.com/embed?v=StTqXEQ2l-Y)](https://www.youtube.com/watch?v=LLZQT9-0l_8&t "Python Voice Assistant")
