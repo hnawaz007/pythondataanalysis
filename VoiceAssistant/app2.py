@@ -71,7 +71,7 @@ def respond(text):
         speak(strTime)
     elif 'play music' in text or 'play song' in text:
         speak("Now playing...")
-        music_dir = "C:\\Users\\hnawaz\\Downloads\\Music\\music" #add your music directory here..
+        music_dir = "C:\\Users\\UserName\\Downloads\\Music\\" #add your music directory here..
         songs = os.listdir(music_dir)
         #counter = 0
         print(songs)
