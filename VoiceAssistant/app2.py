@@ -91,7 +91,7 @@ def playmusic(song):
 def stopmusic():
     mixer.music.stop()
 
-#let try it
+#let's try it
 #text = get_audio()
 #speak(text)
 while True:
