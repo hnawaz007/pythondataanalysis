@@ -1,6 +1,7 @@
 # Python Voice Assistant
 How cool is it to build your own personal assistants like Alexa or Siri? This tutorial will walk you through the basics of building your own digital virtual assistant in Python, it will parse the commands and response to a few basic inquiries. 
 
+* Second installment with updates and additional functionality is in **app2.py** file.
 * Install the dependencies in the virtual environment (using pip or conda) to avoid any issues. .
 
 
@@ -10,6 +11,10 @@ How cool is it to build your own personal assistants like Alexa or Siri? This tu
 ```
 python app.py
 ````
+```
+python app2.py
+````
+
 
 
 Supported commands :
