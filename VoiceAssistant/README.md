@@ -13,10 +13,12 @@ python app.py
 
 
 Supported commands :
-* Open YouTube : Opens the YouTube in default browser.
+* Search for specific terms on YouTube: Opens the YouTube in default browser with search term.
 * Tell me a joke : Says a random joke from PyJoke module.
-* Search a Term/Person : Pulls info form WikiPedia
-* Exit : Quits the program
+* Search a Term/Person : Pulls info form WikiPedia.
+* Empty Recycle Bin : Issue command to clear Recyle bin.
+* Play and Stop music: Ability to play and stop music. Based on a given directory.
+* Exit : Quits the program.
 * Stay tuned for more features in the next session...
 
 
