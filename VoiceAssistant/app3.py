@@ -41,7 +41,7 @@ def speak(text):
     tts.save(filename)
     playsound.playsound(filename)
 
-#funtion to respond to commands
+#function to respond to commands
 def respond(text):
     print("Text from get audio " + text)
     if 'youtube' in text:
@@ -96,7 +96,7 @@ def playmusic(song):
 def stopmusic():
     mixer.music.stop()
 
-#let try it
+#let's try it
 #text = get_audio()
 #speak(text)
 while True:
