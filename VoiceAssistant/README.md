@@ -20,8 +20,11 @@ python app2.py
 Supported commands :
 * Search for specific terms on YouTube: Opens the YouTube in default browser with search term.
 * Tell me a joke : Says a random joke from PyJoke module.
+* Tells time : Says the current datetime.
 * Search a Term/Person : Pulls info form WikiPedia.
+* Search a Term/Person : Opens and search YouTube.
 * Empty Recycle Bin : Issue command to clear Recyle bin.
+* Organize a directory: Groups similar files in a directory and puts them in a new folder.
 * Play and Stop music: Ability to play and stop music. Based on a given directory.
 * Exit : Quits the program.
 * Stay tuned for more features in the next session...
