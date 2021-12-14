@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<!-- head tag with css/js reference -->
+<head>
+  <meta charset="UTF-8">
+  <title>Flask</title>
+
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='./style.css') }}">
+<link type="text/css" rel="stylesheet" href="../static/bootstrap.min.css">
+  
+</head>
+  <!-- End of head -->
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="{{ url_for('home')}}">BI Insights Inc</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End of Navigation -->
+  
+  <!-- Page Content - Input and button -->
+
+ <div class="main">
+	<h4 class="predict">Enter Budget Amount</h4>
+
+     <!-- Form to enter new data for predictions  -->
+    <form action="{{ url_for('predict')}}" method="POST">
+      <input type="text" name="budget" id="budget" placeholder="Budget" required="required" /><br>
+      <button type="submit" class="btn btn-primary btn-block btn-large">Submit</button>
+    </form>
+
+   <br>
+   <br>
+     <!-- Page Content - Input and button -->
+    <div class="predict">
+	{{prediction}}
+	</div>
+   
+   
+ </div>
+
+
+
+
+</body>
+</html>
