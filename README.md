@@ -1,5 +1,5 @@
 # Python Data Analysis
-This is the Python repository (repo) that supports Everything BI channel's videos. This repo houses the code for multiple topics covered on the channel. 
+This is the Python repository (repo) that supports BI Insights Inc channel's videos. This repo houses the code for multiple topics covered on the channel ranging from data analysis, machine learning and web development using Python.
 
 # Getting Started
 
