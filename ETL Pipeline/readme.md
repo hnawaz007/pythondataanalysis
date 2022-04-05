@@ -21,6 +21,6 @@ The incremental data load approach in ETL (Extract, Transform and Load) is the i
 In this process, we identify and process new and modified rows since the last ETL run.
 Following are Incremental Data Load Approahces:
 
- * Change Data Capture
- * Destination Change Comparison
- * Source Change Detection
+ * <a href="https://www.youtube.com/watch?v=FJSvKgfXgtk&t">Change Data Capture</a>
+ *  <a href="https://www.youtube.com/watch?v=32ErvH_m_no&t">Destination Change Comparison</a>
+ * <a href="https://www.youtube.com/watch?v=a_T8xRaCO60l">Source Change Detection</a>
