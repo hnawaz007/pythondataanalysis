@@ -4,10 +4,10 @@
 <p align="center"><b>ETL with Pandas Series.</b></p>
 
 <p align="center">
-  <a href="https://github.com/sodadata/soda-sql/blob/main/LICENSE">Python</a>
-  <a href="https://join.slack.com/t/soda-community/shared_invite/zt-m77gajo1-nXJF7JtbbRht2zwaiLb9pg">ETL</a>
-  <a href="https://pypi.org/project/soda-sql/">SQL</a>
-  <a href="https://github.com/sodadata/soda-sql/actions/workflows/build.yml">Incremental Data Load</a>
+  <a href="https://www.youtube.com/watch?v=dfouoh9QdUw&t">Python ETL Pipeline</a>
+  <a href="https://www.youtube.com/watch?v=W-8tEFAWD5A">Load ETL Reference Data</a>
+  <a href="https://www.youtube.com/watch?v=32ErvH_m_no&t">Destination Change Comparison</a>
+  <a href="https://www.youtube.com/watch?v=a_T8xRaCO60l">Source Change Detection</a>
 </p>
 
 **What is ETL ?**
