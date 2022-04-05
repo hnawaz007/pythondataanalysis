@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/hnawaz007/pythondataanalysis/blob/main/img/66388243.png" alt="Soda logo" /></p>
+<p align="center"><img src="https://github.com/hnawaz007/pythondataanalysis/blob/main/img/BIInsightsInc.com.png" alt="BI Insights Logo" /></p>
 
 <h1 align="center">BI Insights Inc</h1>
 <p align="center"><b>ETL with Pandas Series.</b></p>
