@@ -10,22 +10,17 @@
   <a href="https://github.com/sodadata/soda-sql/actions/workflows/build.yml">Incremental Data Load</a>
 </p>
 
-**What does Soda SQL do?**
+**What is ETL ?**
 
-Soda SQL allows you to
+ETL stands for Extract, Transform, Load. 
+ETL is a type of data integration that extracts data from one or more sources (API, a database or a file), transforms it to match the destination system’s requirements and loads it into the destination system.
 
- * Stop your pipeline when bad data is detected
- * Extract metrics and column profiles through super efficient SQL
- * Full control over metrics and queries through declarative config files
+**What are ETL Incremental Data Load Approaches?**
 
-**Why Soda SQL?**
+The incremental data load approach in ETL (Extract, Transform and Load) is the ideal design pattern. 
+In this process, we identify and process new and modified rows since the last ETL run.
+Following are Incremental Data Load Approahces:
 
-To protect against silent data issues for the consumers of your data,
-it's best-practice to profile and test your data:
-
- * as it lands in your warehouse,
- * after every important data processing step
- * right before consumption.
-
-This way you will prevent delivery of bad data to downstream consumers.
-You will spend less time firefighting and gain a better reputation.
+ * Change Data Capture
+ * Destination Change Comparison
+ * Source Change Detection
