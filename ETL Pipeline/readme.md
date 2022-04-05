@@ -22,5 +22,6 @@ In this process, we identify and process new and modified rows since the last ET
 Following are Incremental Data Load Approahces:
 
  * <a href="https://www.youtube.com/watch?v=FJSvKgfXgtk&t">Change Data Capture</a>
- *  <a href="https://www.youtube.com/watch?v=32ErvH_m_no&t">Destination Change Comparison</a>
+ * <a href="https://www.youtube.com/watch?v=32ErvH_m_no&t">Destination Change Comparison</a>
  * <a href="https://www.youtube.com/watch?v=a_T8xRaCO60l">Source Change Detection</a>
+ * <a href="https://www.youtube.com/watch?v=eZfD6x9FJ4E&t">Automate your Python ETL pipeline with Airflow</a>
