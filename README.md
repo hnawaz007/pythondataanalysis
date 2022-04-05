@@ -1,7 +1,9 @@
 <p align="center"><img src="https://github.com/hnawaz007/pythondataanalysis/blob/main/img/BIInsightsInc.com.png" alt="BI Insights Logo" /></p>
 
 <h1 align="center"> Python Data Analysis | ETL | ML </h1>
-<p align="center"><b>ETL with Pandas Series.</b></p>
+<p align="center">
+  <a href="https://www.youtube.com/channel/UC8aox1k3cd00tTKuBNt4tMw">YouTube</a>
+</p>
 
 ## Python Data Analysis | ETL | ML
 This is the Python repository (repo) that supports BI Insights Inc YouTube channel's videos. This repo houses the code for multiple topics covered on the channel ranging from data analysis, machine learning and web development using Python and ETL.
