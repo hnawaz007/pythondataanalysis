@@ -25,3 +25,11 @@ Following are Incremental Data Load Approahces:
  * <a href="https://www.youtube.com/watch?v=32ErvH_m_no&t">Destination Change Comparison</a>
  * <a href="https://www.youtube.com/watch?v=a_T8xRaCO60l">Source Change Detection</a>
  * <a href="https://www.youtube.com/watch?v=eZfD6x9FJ4E&t">Automate your Python ETL pipeline with Airflow</a>
+
+**ETL Topics covered in this series?**
+
+ * <a href="https://www.youtube.com/watch?v=dfouoh9QdUw&t">Python ETL Pipeline</a>
+ * <a href="https://www.youtube.com/watch?v=W-8tEFAWD5A">Load ETL Reference Data</a>
+ * <a href="https://www.youtube.com/watch?v=32ErvH_m_no&t">Destination Change Comparison</a>
+ * <a href="https://www.youtube.com/watch?v=a_T8xRaCO60l">Source Change Detection</a>
+ * <a href="https://www.youtube.com/watch?v=eZfD6x9FJ4E&t">Automate your Python ETL pipeline with Airflow</a>
