@@ -43,7 +43,7 @@ def load(df, tbl):
         rows_imported = 0
         print(f'importing rows {rows_imported} to {rows_imported + len(df)}... for table {tbl}')
         # save to s3
-        upload_file_bucket = 'biinsights-sqlserver-src-data-bucket-etl'
+        upload_file_bucket = 'your-aws-s3-bucket'
         upload_file_key = 'public/' + str(tbl) + f"/{str(tbl)}"
         filepath =  upload_file_key + ".csv"
         #
