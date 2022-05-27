@@ -21,7 +21,7 @@ Resources:
     Type: 'AWS::EC2::SecurityGroupIngress'
     DependsOn: RSSecurityGroup
     Properties:
-      CidrIp: 108.41.181.216/32
+      CidrIp: 000.00.000.000/32
       GroupId: !Ref RSSecurityGroup
       IpProtocol: tcp
       FromPort: 5439
