@@ -1,6 +1,6 @@
 ## Product Analysis using SQL
 
-For database setup follow the stepts int following video: https://www.youtube.com/watch?v=e5mvoKuV3xs&t
+For database setup follow the stepts int following [video](https://www.youtube.com/watch?v=e5mvoKuV3xs&t)
 
 ## 1 - What is our Sales by Products?
 Answer: Below query display Sales figures by Products.
