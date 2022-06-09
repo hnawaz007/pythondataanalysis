@@ -30,7 +30,7 @@ Order by SUM(f.SalesAmount) DESC
 ```
 
 ## 3 - What are our top 10 products with lowest production cost?
-Answer: Below query display Top 10 Products by lowest production cost.
+Answer: Below query display Top 10 Products with lowest production cost.
 
 ```sql
 --Products by Lowest Production Cost
