@@ -1,6 +1,6 @@
 <p align="center"><img src="https://github.com/hnawaz007/pythondataanalysis/blob/main/img/BIInsightsInc.com.png" alt="BI Insights Logo" /></p>
 
-<h1 align="center"> Python Data Analysis | ETL | ML </h1>
+<h1 align="center"> Python Data Analysis | ETL | ML | SQL </h1>
 <p align="center">
   <a href="https://www.youtube.com/channel/UC8aox1k3cd00tTKuBNt4tMw">YouTube</a>
 </p>
