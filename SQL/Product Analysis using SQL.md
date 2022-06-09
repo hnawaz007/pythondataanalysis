@@ -43,7 +43,7 @@ Group By p.EnglishProductName
 Order by SUM(f.TotalProductCost) ASC
 ```
 
-## 4 - How is our Prodcut categories performing?
+## 4 - How is our Prodcut categories are performing?
 Answer: Below query showcases the categories performance.
 
 ```sql
