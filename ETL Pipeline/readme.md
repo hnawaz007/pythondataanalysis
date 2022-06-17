@@ -4,9 +4,9 @@
 <p align="center"><b>ETL with Pandas Series.</b></p>
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=dfouoh9QdUw&t">Python ETL Pipeline</a>
-  <a href="https://www.youtube.com/watch?v=W-8tEFAWD5A">Load ETL Reference Data</a>
-  <a href="https://www.youtube.com/watch?v=32ErvH_m_no&t">Destination Change Comparison</a>
+  <a href="https://www.youtube.com/watch?v=dfouoh9QdUw&t">Python ETL Pipeline</a> | 
+  <a href="https://www.youtube.com/watch?v=W-8tEFAWD5A">Load ETL Reference Data</a> | 
+  <a href="https://www.youtube.com/watch?v=32ErvH_m_no&t">Destination Change Comparison</a> | 
   <a href="https://www.youtube.com/watch?v=a_T8xRaCO60l">Source Change Detection</a>
 </p>
 
