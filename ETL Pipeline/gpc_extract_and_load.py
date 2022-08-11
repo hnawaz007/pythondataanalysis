@@ -29,7 +29,7 @@ def extract_and_load():
         #
         try:
             credentials = service_account.Credentials.from_service_account_file( '/home/airflow/dotted-music-357620-02b4a53537b7.json')
-            project_id = "dotted-music-357620"
+            project_id = "your-gcp-account-id"
             dateset_ref = "AdventureWorks"
             # 
             for value in tbl_dict.values():
