@@ -20,22 +20,24 @@ Will update if any new platforms are used.
 
 1. [Apache Airflow](https://airflow.apache.org/)
 2. [AWS](https://aws.amazon.com/)
-3. [Google Cloud](https://cloud.google.com/)
-4. [Jupyter Notebook](https://jupyter.org/)
-5. [PyCharm](https://www.jetbrains.com/pycharm/)
-6. [PostgreSQL](https://www.postgresql.org/)
-7. [Python](https://www.python.org/)
-8. [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
+3. [Docker](https://www.docker.com/)
+4. [Google Cloud](https://cloud.google.com/)
+5. [Jupyter Notebook](https://jupyter.org/)
+6. [PyCharm](https://www.jetbrains.com/pycharm/)
+7. [PostgreSQL](https://www.postgresql.org/)
+8. [Python](https://www.python.org/)
+9. [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 
 ## Setup Instructions
 
 Please see the configuration documentation for Jupyter Notebook and PyCharm.
-1. [Apache Airflow](https://airflow.apache.org/docs/apache-airflow/stable/start/docker.html)
-2. [PyCharm](https://www.jetbrains.com/pycharm/)
+1. [Apache Airflow](https://www.youtube.com/watch?v=t4h4vsULwFE)
+2. [Docker](https://www.docker.com/)
 3. [Jupyter Notebook](https://jupyter.org/)
-4. [PostgreSQL](https://www.youtube.com/watch?v=fjYiWXHI7Mo&t)
-5. [Python](https://www.python.org/)
-6. [SQL Server](https://www.youtube.com/watch?v=e5mvoKuV3xs)
+4. [PyCharm](https://www.jetbrains.com/pycharm/)
+5. [PostgreSQL](https://www.youtube.com/watch?v=fjYiWXHI7Mo&t)
+6. [Python](https://www.python.org/)
+7. [SQL Server](https://www.youtube.com/watch?v=e5mvoKuV3xs)
 
 
 ## Misc Information
