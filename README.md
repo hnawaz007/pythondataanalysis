@@ -33,7 +33,7 @@ Will update if any new platforms are used.
 Please see the configuration documentation for Jupyter Notebook and PyCharm.
 1. [Apache Airflow](https://www.youtube.com/watch?v=t4h4vsULwFE)
 2. [Docker](https://www.docker.com/)
-3. [Jupyter Notebook](https://jupyter.org/)
+3. [Jupyter Notebook](https://www.youtube.com/watch?v=B0G-44dqHRM)
 4. [PyCharm](https://www.jetbrains.com/pycharm/)
 5. [PostgreSQL](https://www.youtube.com/watch?v=fjYiWXHI7Mo&t)
 6. [Python](https://www.python.org/)
