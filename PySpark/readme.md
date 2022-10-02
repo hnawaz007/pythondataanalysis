@@ -4,6 +4,6 @@ PySpark is a Python API for Apache Spark. Apache Spark is an analytics engine fo
 It also supports other tools and languages including Spark SQL for SQL, pandas API on Spark for pandas workloads, and Structured Streaming for incremental computation and stream processing.
 
 ## Getting Started 
-In this example, we demonstratee how to setup PySpark in standalone mode. 
+In this example, we demonstrate how to setup PySpark in standalone mode. 
 We write our first PySpark application that reads data from CSV file. We performe DataFrame operations using Pandas API on Spark. 
 In addition, we use Spark-SQL to query the dataset we imported. Finally, we persisted the DataFrame to the PostgreSQL database.
