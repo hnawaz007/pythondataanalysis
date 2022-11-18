@@ -52,26 +52,17 @@ Resources:
     Type: 'AWS::EC2::Subnet'
     Properties:
       VpcId: !Ref PubPrivateVPC
-
       CidrBlock: 172.31.3.0/24
-
       MapPublicIpOnLaunch: false
       Tags:
         - Key: Name
-
           Value: 'etlintegrationPrivateSubnet'
   PrivateRouteTable:
-
     Type: 'AWS::EC2::RouteTable'
-
     Properties:
-
       VpcId: !Ref PubPrivateVPC
-
       Tags:
-
         - Key: Network
-
           Value: Private
  
   InternetGateway:
