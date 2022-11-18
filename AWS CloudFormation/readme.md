@@ -1,6 +1,6 @@
-<p align="center"><img src="https://github.com/hnawaz007/pythondataanalysis/blob/main/img/Cloudformation.jpg" alt="CloudFormation"  height="100" /></p>
+<p align="center"><img src="https://github.com/hnawaz007/pythondataanalysis/blob/main/img/Cloudformation.jpg" alt="CloudFormation"  height="200" /></p>
 
-<h1 align="center"> AWS CloudFormation </h1>
+<h3 align="center"> AWS CloudFormation </h1>
 <p align="center">
   <a href="https://www.youtube.com/watch?v=3nsLNAZ9Zok">YouTube</a>
 </p>
