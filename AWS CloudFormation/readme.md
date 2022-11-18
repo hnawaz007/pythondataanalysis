@@ -18,4 +18,4 @@ RSIngress1:
     Type: 'AWS::EC2::SecurityGroupIngress'
     DependsOn: RSSecurityGroup
     Properties:
-      <mark>CidrIp: 000.00.000.000/32</mark>
+      <span style="background-color: #FFFF00">CidrIp: 000.00.000.000/32</span>
