@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/hnawaz007/pythondataanalysis/blob/main/img/Cloudformation.jpg" alt="CloudFormation" width="100" height="400" /></p>
+<p align="center"><img src="https://github.com/hnawaz007/pythondataanalysis/blob/main/img/Cloudformation.jpg" alt="CloudFormation" width="400" height="100" /></p>
 
 <h1 align="center"> AWS CloudFormation </h1>
 <p align="center">
