@@ -15,7 +15,7 @@ def test_col_exists(df):
 
 # check for nulls
 def test_null_check(df):
-    assert np.where(df['ProductKey'].isnull())
+    assert df['ProductSubcategoryKey'].isnull().all()
 
 # check values are unique
 def test_unique_check(df):
