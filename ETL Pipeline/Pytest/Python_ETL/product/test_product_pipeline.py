@@ -22,7 +22,7 @@ def test_col_exists(df):
 
 # check for nulls
 def test_null_check(df):
-    assert df['ProductKey'].isnull().all()
+    assert df['ProductKey'].notnull().all()
 
 # check values are unique
 def test_unique_check(df):
