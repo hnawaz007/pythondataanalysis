@@ -18,26 +18,30 @@ Clone or download the repo. Follow the instructions provided on the channel.
 Pycharm, Jupyter Notebook, Python.
 Will update if any new platforms are used.
 
-1. [Apache Airflow](https://airflow.apache.org/)
-2. [AWS](https://aws.amazon.com/)
-3. [Docker](https://www.docker.com/)
-4. [Google Cloud](https://cloud.google.com/)
-5. [Jupyter Notebook](https://jupyter.org/)
-6. [PyCharm](https://www.jetbrains.com/pycharm/)
-7. [PostgreSQL](https://www.postgresql.org/)
-8. [Python](https://www.python.org/)
-9. [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
+1. [Airbyte](https://airbyte.com/)
+2. [Apache Airflow](https://airflow.apache.org/)
+3. [AWS](https://aws.amazon.com/)
+4. [Docker](https://www.docker.com/)
+5. [Dagster](https://dagster.io/)
+6. [Google Cloud](https://cloud.google.com/)
+7. [Jupyter Notebook](https://jupyter.org/)
+8. [PyCharm](https://www.jetbrains.com/pycharm/)
+9. [PostgreSQL](https://www.postgresql.org/)
+10. [Python](https://www.python.org/)
+11. [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 
 ## Setup Instructions
 
 Please see the configuration documentation for Jupyter Notebook and PyCharm.
-1. [Apache Airflow](https://www.youtube.com/watch?v=t4h4vsULwFE)
-2. [Docker](https://www.docker.com/)
-3. [Jupyter Notebook](https://www.youtube.com/watch?v=B0G-44dqHRM)
-4. [PyCharm](https://www.jetbrains.com/pycharm/)
-5. [PostgreSQL](https://www.youtube.com/watch?v=fjYiWXHI7Mo&t)
-6. [Python](https://www.python.org/)
-7. [SQL Server](https://www.youtube.com/watch?v=e5mvoKuV3xs)
+1. [Airbyte](https://www.youtube.com/watch?v=2FvMa7vaxDY&t)
+2. [Apache Airflow](https://www.youtube.com/watch?v=t4h4vsULwFE)
+3. [Dagster](https://www.youtube.com/watch?v=t8QADtYdWEI&t)
+4. [Docker](https://www.docker.com/)
+5. [Jupyter Notebook](https://www.youtube.com/watch?v=B0G-44dqHRM)
+6. [PyCharm](https://www.jetbrains.com/pycharm/)
+7. [PostgreSQL](https://www.youtube.com/watch?v=fjYiWXHI7Mo&t)
+8. [Python](https://www.python.org/)
+9. [SQL Server](https://www.youtube.com/watch?v=e5mvoKuV3xs)
 
 
 ## Misc Information
