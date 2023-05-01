@@ -77,8 +77,8 @@ x-airflow-common:
     - ./logs:/opt/airflow/logs
     - ./plugins:/opt/airflow/plugins
     - ./sql:/opt/airflow/sql
-    - //var/run/docker.sock:/var/run/docker.sockAIRFLOW_UID
-  user: "${AIRFLOW_UID:-0}:0"
+    - ./config/airflow.cfg:/opt/airflow/airflow.cfg
+  user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
     &airflow-common-depends-on
     redis:
