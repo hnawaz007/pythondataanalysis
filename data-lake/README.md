@@ -66,7 +66,7 @@ Create schema and create table with:
 CREATE SCHEMA IF NOT EXISTS minio.sales
 WITH (location = 's3a://sales/');
 
-CREATE TABLE IF NOT EXISTS minio.sales.sales_tz (
+CREATE TABLE IF NOT EXISTS minio.sales.sales_parquet (
   productcategoryname VARCHAR,
   productsubcategoryname VARCHAR,
   productname VARCHAR,
@@ -86,7 +86,7 @@ Query the newly created table with:
 ```bash
 ./trino --execute "
 SHOW TABLES IN minio.sales;
-SELECT * FROM minio.sales.sales_tz LIMIT 5;"
+SELECT * FROM minio.sales.sales_parquet LIMIT 5;"
 ```
 
 # License
