@@ -1,0 +1,6 @@
+,ProductCategoryKey,ProductCategoryAlternateKey,EnglishProductCategoryName,SpanishProductCategoryName,FrenchProductCategoryName
+0,1,1,Bikes,Bicicleta,Vélo
+1,2,2,Components,Componente,Composant
+2,3,3,Clothing,Prenda,Vêtements
+3,4,4,Accessories,Accesorio,Accessoire
+4,6,5,Tools,herramientas,outils
