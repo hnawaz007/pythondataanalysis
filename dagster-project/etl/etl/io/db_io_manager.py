@@ -15,8 +15,7 @@ from dagster import (
 
 class PostgresDataframeIOManager(IOManager):
     def __init__(self, uid: str, pwd: str, server: str, db: str, port: str) -> None:
-        # `from_service_account_info` accepts a dictionary corresponding to the JSON file contents
-        # If you'd like to refer to the JSON file path, change it to `from_service_account_file`
+        # credentials passed to IO Manager 
         self.uid = uid
         self.pwd = pwd
         self.db = db
