@@ -1,0 +1,34 @@
+[32m2023-07-23 17:25:41 +0200[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - b4297a54-a24e-4206-b87f-41dfab781833 - 29125 - LOGS_CAPTURED - Started capturing logs in process (pid: 29125).
+[32m2023-07-23 17:25:41 +0200[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - b4297a54-a24e-4206-b87f-41dfab781833 - 29125 - extract_dim_product_category - STEP_START - Started execution of step "extract_dim_product_category".
+[32m2023-07-23 17:25:41 +0200[0m - dagster - [34mERROR[0m - [31m__ASSET_JOB - b4297a54-a24e-4206-b87f-41dfab781833 - 29125 - extract_dim_product_category - STEP_FAILURE - Execution of step "extract_dim_product_category" failed.
+
+dagster._core.errors.DagsterExecutionStepExecutionError: Error occurred while executing op "extract_dim_product_category"::
+
+KeyError: 'devrep'
+
+Stack Trace:
+  File "/opt/homebrew/lib/python3.11/site-packages/dagster/_core/execution/plan/utils.py", line 54, in op_execution_error_boundary
+    yield
+  File "/opt/homebrew/lib/python3.11/site-packages/dagster/_utils/__init__.py", line 445, in iterate_with_context
+    next_output = next(iterator)
+                  ^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/dagster/_core/execution/plan/compute_generator.py", line 124, in _coerce_op_compute_fn_to_iterator
+    result = invoke_compute_fn(
+             ^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/dagster/_core/execution/plan/compute_generator.py", line 118, in invoke_compute_fn
+    return fn(context, **args_to_pass) if context_arg_provided else fn(**args_to_pass)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pgawin/Repo/pythondataanalysis/dagster-project/etl/etl/assets_productcategory.py", line 13, in extract_dim_product_category
+    with get_sql_conn() as conn:
+         ^^^^^^^^^^^^^^
+  File "/Users/pgawin/Repo/pythondataanalysis/dagster-project/etl/etl/resources/db_conn.py", line 11, in get_sql_conn
+    pwd = os.environ['devrep']
+          ~~~~~~~~~~^^^^^^^^^^
+  File "<frozen os>", line 679, in __getitem__
+
+The above exception occurred during handling of the following exception:
+KeyError: b'devrep'
+
+Stack Trace:
+  File "<frozen os>", line 676, in __getitem__
+[0m
