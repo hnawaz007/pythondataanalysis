@@ -1,6 +1,7 @@
 # trino-minio-docker
 
-Minimal example to run Trino with Minio and the Hive standalone metastore on Docker. The data in this tutorial pulled from Microsoft AdventureWorks database.
+Minimal example to run Trino with Minio and the Hive standalone metastore on Docker. The data used in this tutorial is from Microsoft AdventureWorks database.  
+
 ## Installation and Setup
 
 Install [s3cmd](https://s3tools.org/s3cmd) with:
