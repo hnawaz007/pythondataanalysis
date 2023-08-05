@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS minio.sales.sales_tz (
+CREATE TABLE IF NOT EXISTS minio.sales.sales_parquet (
   productcategoryname VARCHAR,
   productsubcategoryname VARCHAR,
   productname VARCHAR,
