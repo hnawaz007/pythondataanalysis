@@ -1,0 +1,24 @@
+{
+    "name": "source-sales-connector",
+    "config": {
+        "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
+        "database.user": "user",
+        "database.dbname": "adventureworks",
+        "slot.name": "dbz_sales_tz_rep_slot",
+        "transforms": "unwrap",
+        "database.server.name": "postrestz",
+        "database.port": "5432",
+        "plugin.name": "pgoutput",
+        "key.converter.schemas.enable": "true",
+        "database.hostname": "hostname",
+        "database.password": "password",
+        "db.timezone": "US/Eastern",
+        "value.converter.schemas.enable": "true",
+        "name": "source-sales-timezone-connector",
+        "transforms.unwrap.type": "io.debezium.transforms.ExtractNewRecordState",
+        "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+        "table.include.list": "public.factinternetsales_streaming",
+        "key.converter": "org.apache.kafka.connect.json.JsonConverter"
+    }
+	
+}

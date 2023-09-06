@@ -1,0 +1,21 @@
+---
+version: '2'
+
+services:
+
+  clickhouse-server:
+    image: yandex/clickhouse-server
+    volumes:
+      - ./clickhouse/config.xml:/etc/clickhouse-server/config.xml
+      - ./clickhouse/zookeeper-servers.xml:/etc/clickhouse-server/conf.d/zookeeper-servers.xml
+      - ./shared/ch-data/clickhouse:/var/lib/clickhouse
+    ports:
+      - '8123:8123'
+      - '9002:9002'
+
+  clickhouse-client:
+    image: yandex/clickhouse-client
+    entrypoint:
+      - /bin/sleep
+    command:
+      - infinity

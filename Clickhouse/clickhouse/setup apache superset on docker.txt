@@ -1,0 +1,11 @@
+https://hub.docker.com/r/apache/superset
+
+docker run -d -p 8089:8088 -e "SUPERSET_SECRET_KEY=ffkljsdsd546874sdfsdf5646541sdfsdfsd" --name superset apache/superset
+
+
+docker exec -it superset superset fab create-admin --username admin --firstname Superset --lastname Admin --email admin@superset.com --password admin --SECRET_KEY ffkljsdsd546874sdfsdf5646541sdfsdfsd
+
+docker exec -it superset superset db upgrade
+
+docker exec -it superset superset init
+

@@ -1,0 +1,19 @@
+{
+    "name": "sales-clickhouse-sink",
+    "config": {
+        "connector.class": "io.confluent.connect.jdbc.JdbcSinkConnector",
+        "table.name.format": "sales",
+        "tasks.max": "1",
+        "topics": "postrestz.public.factinternetsales_streaming",
+        "mode": "insert",
+        "auto.evolve": "true",
+        "name": "sales-clickhouse-sink",
+        "auto.create": "true",
+        "connection.url": "jdbc:clickhouse://host.docker.internal:8123/default",
+        "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+        "pk.mode": "record_value",
+        "key.converter": "org.apache.kafka.connect.json.JsonConverter",
+        "pk_fields": "record_value",
+        "pk.fields": "id"
+    }
+}

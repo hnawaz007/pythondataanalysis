@@ -1,0 +1,5 @@
+columns format version: 1
+3 columns:
+`id` Int32
+`var1` String
+`var2` Date
