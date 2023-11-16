@@ -1,0 +1,34 @@
+version: "3.9"
+
+services:
+
+  dremio:
+    platform: linux/x86_64
+    image: dremio/dremio-oss:latest
+    ports:
+      - 9047:9047
+      - 31010:31010
+      - 32010:32010
+    container_name: dremio
+
+  minioserver:
+    image: minio/minio
+    ports:
+      - 9000:9000
+      - 9001:9001
+    environment:
+      MINIO_ROOT_USER: minioadmin
+      MINIO_ROOT_PASSWORD: minioadmin
+    container_name: minioserver
+    command: server /data --console-address ":9001"
+  
+  nessie:
+    image: projectnessie/nessie
+    container_name: nessie
+    ports:
+      - "19120:19120"
+
+networks:
+  default:
+    name: iceberg_env
+    driver: bridge
