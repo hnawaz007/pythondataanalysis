@@ -37,7 +37,7 @@ def load(df, tbl):
         engine = create_engine(f'postgresql://{uid}:{pwd}@{server}:5432/AdventureWorks')
         print(f'importing rows {rows_imported} to {rows_imported + len(df)}... for table {tbl}')
         # save df to postgres
-        df.to_sql(f'stg_{tbl}', engine, if_exists='replace', index=False)
+        df.to_sql(f'stg_{tbl}', engine, if_exists='replace', index=False, chunksize=100000)
         rows_imported += len(df)
         # add elapsed time to final print out
         print("Data imported successful")
