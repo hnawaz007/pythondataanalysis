@@ -51,9 +51,3 @@ try:
     extract()
 except Exception as e:
     print("Error while extracting data: " + str(e))
-
-try:
-    #call extract function
-    extract()
-except Exception as e:
-    print("Error while extracting data: " + str(e))
