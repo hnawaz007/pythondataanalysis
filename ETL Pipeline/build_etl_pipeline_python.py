@@ -15,16 +15,20 @@ database = "AdventureWorksDW2019;"
 #extract data from sql server
 def extract():
     try:
-        src_conn = pyodbc.connect('DRIVER=' + driver + ';SERVER=' + server + '\SQLEXPRESS' + ';DATABASE=' + database + ';UID=' + uid + ';PWD=' + pwd)
-        src_cursor = src_conn.cursor()
+        src_engine = create_engine(
+            f'mssql+pyodbc://{uid}:{pwd}@{server}/{database}?driver={driver}&Encrypt=no'
+        )
+        src_conn = src_engine.connect()
         # execute query
-        src_cursor.execute(""" select  t.name as table_name
-        from sys.tables t where t.name in ('DimProduct','DimProductSubcategory','DimProductSubcategory','DimProductCategory','DimSalesTerritory','FactInternetSales') """)
-        src_tables = src_cursor.fetchall()
-        for tbl in src_tables:
-            #query and load save data to dataframe
-            df = pd.read_sql_query(f'select * FROM {tbl[0]}', src_conn)
-            load(df, tbl[0])
+        query = """ select  t.name as table_name
+        from sys.tables t where t.name in ('DimProduct','DimProductSubcategory','DimProductSubcategory','DimProductCategory','DimSalesTerritory','FactInternetSales') """
+        src_tables = pd.read_sql_query(query, src_conn).to_dict()['table_name']
+        
+        for id in src_tables:
+            table_name = src_tables[id]
+            df = pd.read_sql_query(f'select * FROM {table_name}', src_conn)
+            load(df, table_name)
+       
     except Exception as e:
         print("Data extract error: " + str(e))
     finally:
@@ -37,7 +41,7 @@ def load(df, tbl):
         engine = create_engine(f'postgresql://{uid}:{pwd}@{server}:5432/AdventureWorks')
         print(f'importing rows {rows_imported} to {rows_imported + len(df)}... for table {tbl}')
         # save df to postgres
-        df.to_sql(f'stg_{tbl}', engine, if_exists='replace', index=False)
+        df.to_sql(f'stg_{tbl}', engine, if_exists='replace', index=False, chunksize=100000)
         rows_imported += len(df)
         # add elapsed time to final print out
         print("Data imported successful")
