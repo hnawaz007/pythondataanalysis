@@ -1,0 +1,39 @@
+{
+    "data_asset_type": null,
+    "expectation_suite_name": "adventureworks_suite",
+    "expectations": [
+      {
+        "expectation_type": "expect_table_row_count_to_be_between",
+        "kwargs": {
+            "min_value": 1,
+            "max_value": 5
+        },
+        "meta": {}
+      },
+      {
+        "expectation_type": "expect_column_to_exist",
+        "kwargs": {
+          "column": "ProductCategoryKey"
+        },
+        "meta": {}
+      },
+      {
+        "expectation_type": "expect_column_to_exist",
+        "kwargs": {
+          "column": "ProductCategoryName"
+        },
+        "meta": {}
+      },
+      {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "ProductCategoryKey"
+        },
+        "meta": {}
+      }
+    ],
+    "ge_cloud_id": null,
+    "meta": {
+      "great_expectations_version": "0.15.41"
+    }
+  }
