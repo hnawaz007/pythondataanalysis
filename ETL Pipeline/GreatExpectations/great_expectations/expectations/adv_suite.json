@@ -1,0 +1,79 @@
+{
+  "data_asset_type": null,
+  "expectation_suite_name": "adv_suite",
+  "expectations": [
+    {
+      "expectation_type": "expect_table_row_count_to_equal",
+      "kwargs": {
+        "value": 38809
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "productcategory"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "Sales"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "saleterritory"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "OrderQuantity",
+        "type_list": [
+          "int",
+          "int64"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_max_to_be_between",
+      "kwargs": {
+        "column": "OrderQuantity",
+        "max_value": 50,
+        "min_value": 1
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "StandardCost",
+        "max_value": 500,
+        "min_value": 100
+      },
+      "meta": {}
+    }
+  ],
+  "ge_cloud_id": null,
+  "meta": {
+    "citations": [
+      {
+        "batch_request": {
+          "data_asset_name": "data.xlsx",
+          "data_connector_name": "default_inferred_data_connector_name",
+          "datasource_name": "my_datasource",
+          "limit": 1000
+        },
+        "citation_date": "2024-01-24T23:10:37.694917Z",
+        "comment": "Created suite added via CLI"
+      }
+    ],
+    "great_expectations_version": "0.15.41"
+  }
+}
