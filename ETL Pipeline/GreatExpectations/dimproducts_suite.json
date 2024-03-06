@@ -1,0 +1,98 @@
+
+
+{
+    "data_asset_type": null,
+    "expectation_suite_name": "dimproducts_suite",
+    "expectations": [
+ {
+      "meta": {},
+      "kwargs": {
+        "column": "ProductKey"
+      },
+      "expectation_type": "expect_column_to_exist"
+    },
+    {
+      "meta": {},
+      "kwargs": {
+        "column": "ProductKey"
+      },
+      "expectation_type": "expect_column_values_to_be_unique"
+    },
+    {
+      "meta": {},
+      "kwargs": {
+        "column": "ProductKey"
+      },
+      "expectation_type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "meta": {},
+      "kwargs": {
+        "column": "ProductKey",
+        "type_list": [
+          "BIGINT"
+        ]
+      },
+      "expectation_type": "expect_column_values_to_be_in_type_list"
+    },
+    {
+      "meta": {},
+      "kwargs": {
+        "column": "ProductLine",
+        "value_set": [
+          "R ",
+          "S ",
+          "M ",
+          "T "
+        ]
+      },
+      "expectation_type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "meta": {},
+      "kwargs": {
+        "column": "SafetyStockLevel",
+        "min_value": 1,
+        "max_value": 1000
+      },
+      "expectation_type": "expect_column_max_to_be_between"
+    },
+    {
+      "meta": {},
+      "kwargs": {
+        "column": "DaysToManufacture",
+        "min_value": 1,
+        "max_value": 10
+      },
+      "expectation_type": "expect_column_max_to_be_between"
+    },
+    {
+      "meta": {},
+      "kwargs": {
+        "column": "StandardCost",
+        "min_value": 100,
+        "max_value": 500
+      },
+      "expectation_type": "expect_column_mean_to_be_between"
+    },
+    {
+      "meta": {},
+      "kwargs": {
+        "column": "product_name"
+      },
+      "expectation_type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "meta": {},
+      "kwargs": {
+        "column": "Color",
+        "mostly": 0.55
+      },
+      "expectation_type": "expect_column_values_to_not_be_null"
+    }
+    ],
+    "ge_cloud_id": null,
+    "meta": {
+      "great_expectations_version": "0.15.41"
+    }
+  }
