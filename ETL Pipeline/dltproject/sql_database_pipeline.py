@@ -72,7 +72,7 @@ def load_standalone_table_resource() -> None:
     # as only rows newer than the start date are fetched from the table
     # we also use `detect_precision_hints` to get detailed column schema
     # and defer_table_reflect to reflect schema only during execution
-    family = sql_table(
+    tbl = sql_table(
         table="DimProductCategory",
         incremental=dlt.sources.incremental(
             "updated",
@@ -81,10 +81,10 @@ def load_standalone_table_resource() -> None:
         defer_table_reflect=True,
     )
     # columns will be empty here due to defer_table_reflect set to True
-    print(family.compute_table_schema())
+    print(tbl.compute_table_schema())
 
     # Run the resources together
-    info = pipeline.extract([family], write_disposition="merge")
+    info = pipeline.extract([tbl], write_disposition="merge")
     print(info)
     # Show inferred columns
     print(pipeline.default_schema.to_pretty_yaml())
@@ -121,6 +121,29 @@ def select_columns() -> None:
     print(pipeline.default_schema.to_pretty_yaml())
 
 
+#
+def incremental_load_upsert(table, column) -> None:
+    """Build a pipeline"""
+    pipeline = dlt.pipeline(
+        pipeline_name="sql_database",
+        destination='postgres',
+        dataset_name="incremental",
+    )
+    
+    # Get the source Data
+    tbl = sql_table(
+        table=table,
+    )
+
+    # Incrementally loading a table based on the primary_key column
+    info = pipeline.run(
+        tbl,
+        write_disposition="merge",
+        primary_key=column,
+        table_name=table
+    )
+    # print info
+    print(info)
 
 
 if __name__ == "__main__":
@@ -135,4 +158,8 @@ if __name__ == "__main__":
 
     # Load all tables from the database.
     # Warning: The sample database is very large
-    load_entire_database()
+    #load_entire_database()
+
+    # Incremental Load
+    incremental_load_upsert("customer", "CustomerKey")
+    
