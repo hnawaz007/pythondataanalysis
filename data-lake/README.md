@@ -1,6 +1,6 @@
 # trino-minio-docker
 
-Minimal example to run Trino with Minio and the Hive standalone metastore on Docker. The data used in this tutorial is from Microsoft AdventureWorks database.  
+Minimal example to run Trino with Minio and the Hive standalone metastore on Docker. The data in this tutorial was converted into an [Apache Parquet](https://parquet.apache.org/) file from the famous [Iris data set](https://archive.ics.uci.edu/ml/datasets/iris).
 
 ## Installation and Setup
 
@@ -64,30 +64,28 @@ Create schema and create table with:
 
 ```bash
 ./trino --execute "
-CREATE SCHEMA IF NOT EXISTS minio.sales
-WITH (location = 's3a://sales/');
+CREATE SCHEMA IF NOT EXISTS minio.iris
+WITH (location = 's3a://iris/');
 
-CREATE TABLE IF NOT EXISTS minio.sales.sales_parquet (
-  productcategoryname VARCHAR,
-  productsubcategoryname VARCHAR,
-  productname VARCHAR,
-  country VARCHAR,
-  salesamount DOUBLE,
-  orderdate timestamp
+CREATE TABLE IF NOT EXISTS minio.iris.iris_parquet (
+  sepal_length DOUBLE,
+  sepal_width  DOUBLE,
+  petal_length DOUBLE,
+  petal_width  DOUBLE,
+  class        VARCHAR
 )
 WITH (
-  external_location = 's3a://sales/',
+  external_location = 's3a://iris/',
   format = 'PARQUET'
-);
-"
+);"
 ```
 
 Query the newly created table with:
 
 ```bash
 ./trino --execute "
-SHOW TABLES IN minio.sales;
-SELECT * FROM minio.sales.sales_parquet LIMIT 5;"
+SHOW TABLES IN minio.iris;
+SELECT * FROM minio.iris.iris_parquet LIMIT 5;"
 ```
 
 # License
