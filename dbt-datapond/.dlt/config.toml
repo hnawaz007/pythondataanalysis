@@ -1,0 +1,5 @@
+[sources.chess]
+config_int = 0 # please set me up!
+
+[runtime]
+dlthub_telemetry = true

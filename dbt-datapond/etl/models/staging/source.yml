@@ -1,0 +1,6 @@
+sources:
+  - name: external_source
+    tables:
+      - name: salesdata
+        meta:
+          external_location: "read_parquet(['s3://sales/data/sales_summary_updated.parquet'])"

@@ -1,0 +1,5 @@
+s3fs
+fsspec
+parquet
+dbt-duckdb
+dbt-core

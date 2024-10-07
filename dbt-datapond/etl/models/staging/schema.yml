@@ -1,0 +1,28 @@
+
+version: 2
+
+models:
+  - name: stg_sales
+    description: "S3 Sales data"
+    columns:
+      - name: ProductCategoryName
+        description: "Product Category Name"
+        data_tests:
+          - not_null
+          
+      - name: ProductName
+        description: "Product Name"
+        data_tests:
+          - not_null
+          
+      - name: ProductSubcategoryName
+        description: "Product Subcategory Name"
+        
+      - name: SalesTerritoryCountry
+        description: "Sales Territory Country"
+        
+      - name: SalesAmount
+        description: "Sales Amount"
+        
+      - name: OrderDate
+        description: "Order Date"
