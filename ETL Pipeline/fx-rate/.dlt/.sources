@@ -1,0 +1,76 @@
+engine_version: 1
+sources:
+  chess:
+    is_dirty: false
+    last_commit_sha: 980e356c698b3c7498bf7ba1ce578fe588857d4d
+    last_commit_timestamp: '2024-03-05T17:07:58+01:00'
+    files:
+      chess\helpers.py:
+        commit_sha: 980e356c698b3c7498bf7ba1ce578fe588857d4d
+        git_sha: eea7efff9ab955a6a7cc75bcbc8ddd26dfd80298
+        sha3_256: 756fa107a25c03ad4bdab11d7d3356b7930a17d606048ae6f39a56ec3c0fb06a
+      chess\README.md:
+        commit_sha: 980e356c698b3c7498bf7ba1ce578fe588857d4d
+        git_sha: f69439b8537c61df1fca3a178f6416c719546503
+        sha3_256: 0921fabc085a0b48cfeb49412f50fe5df6e687deef89b1877021d1b0638c2cc2
+      chess\settings.py:
+        commit_sha: 980e356c698b3c7498bf7ba1ce578fe588857d4d
+        git_sha: 3b729dd553ea4a28f74421a5f39ad8ef012e50bf
+        sha3_256: 09b1ace6abc0a81570d4718635cc44e401bd60864ea843ef7069d3378525c8cb
+      chess\__init__.py:
+        commit_sha: 980e356c698b3c7498bf7ba1ce578fe588857d4d
+        git_sha: 3915abe5c119edb203b4a3c910bb4bf9d2dfbc5c
+        sha3_256: ee9335bdfebbc766d88316190f54ac3771258b6e7211805952d170aff15d8d93
+    dlt_version_constraint: '>=0.3.25'
+  sql_database:
+    is_dirty: false
+    last_commit_sha: 980e356c698b3c7498bf7ba1ce578fe588857d4d
+    last_commit_timestamp: '2024-03-05T17:07:58+01:00'
+    files:
+      sql_database\helpers.py:
+        commit_sha: 980e356c698b3c7498bf7ba1ce578fe588857d4d
+        git_sha: 1776f188046905988ad913b303b2ff6dd5e3468b
+        sha3_256: 1e149f26dd898eda37f935044e812f6e64d3c8b93a429f33fb61aa40926f87ed
+      sql_database\README.md:
+        commit_sha: 980e356c698b3c7498bf7ba1ce578fe588857d4d
+        git_sha: a1990321a937e717f53590d1f3d59ac775621c50
+        sha3_256: ea10ea170811c9439be9b2593361c7d1cee4f4aa525b27c57b55516875bdfacb
+      sql_database\schema_types.py:
+        commit_sha: 980e356c698b3c7498bf7ba1ce578fe588857d4d
+        git_sha: a93ff162d119df66fefa53b763057f3332490901
+        sha3_256: da0da34535d5b93aec8bdf82714a7e83a7e854d3d80f5c42dc656978e8d4094d
+      sql_database\__init__.py:
+        commit_sha: 980e356c698b3c7498bf7ba1ce578fe588857d4d
+        git_sha: b7a689bd4c52c2b7f0fce1f72722753f91addf58
+        sha3_256: 8cad258f9bbd1efd63b567f79281f8984d18cb91712455dd2a12a379a67a7454
+    dlt_version_constraint: '>=0.3.5'
+  google_sheets:
+    is_dirty: false
+    last_commit_sha: 83c50a12b9d024a367830fafabbd3a5e03b6db70
+    last_commit_timestamp: '2024-04-02T13:46:33+02:00'
+    files:
+      google_sheets\README.md:
+        commit_sha: 83c50a12b9d024a367830fafabbd3a5e03b6db70
+        git_sha: ccde899de36917f2ed4fc3fa58eb4585a70af4f9
+        sha3_256: ce6b5c453c49a42e33a6b9827d362ac08044763274b713cabc2b303e4efd4805
+      google_sheets\setup_script_gcp_oauth.py:
+        commit_sha: 83c50a12b9d024a367830fafabbd3a5e03b6db70
+        git_sha: 92f887b95431d8b859261b3bef14c2eea4cec54c
+        sha3_256: bd5dfb1a95bd23e99e465b504448c7e4ccfd1cbb459aa43bc929d7223780f367
+      google_sheets\__init__.py:
+        commit_sha: 83c50a12b9d024a367830fafabbd3a5e03b6db70
+        git_sha: 5bdb623c1f20deeba705af47146fafecd4868360
+        sha3_256: 6963fd0c9c1f1dccf8ec9e70f5c7c558305ec0ea3a3e4e1070a048dbd53675a5
+      google_sheets\helpers\api_calls.py:
+        commit_sha: 83c50a12b9d024a367830fafabbd3a5e03b6db70
+        git_sha: 06e7564822ecd5abf9b708288e8920572898c46b
+        sha3_256: b9f750da6f58519be6b09203d1fabdf4938c844d375b79da27a3cd5fed46d960
+      google_sheets\helpers\data_processing.py:
+        commit_sha: 83c50a12b9d024a367830fafabbd3a5e03b6db70
+        git_sha: ca0ae4206513f67e24536f6f885fedbf2f8a5ce3
+        sha3_256: de0840c83debb9e43bf5473a420387fdb3f1234a3de859f54cd857009e3940a0
+      google_sheets\helpers\__init__.py:
+        commit_sha: 83c50a12b9d024a367830fafabbd3a5e03b6db70
+        git_sha: c573d76f7cdd50a51400466c01d736943a7defb2
+        sha3_256: 9b8e0c7f31a7fcf2aec6591c371e3222af63ae2455db3eacd4c9bab5745482c0
+    dlt_version_constraint: '>=0.3.25'
